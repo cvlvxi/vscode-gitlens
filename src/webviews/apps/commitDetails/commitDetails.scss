@@ -1,3 +1,5 @@
+@import '../../../custom_vars.css';
+
 :root {
 	--gitlens-gutter-width: 20px;
 	--gitlens-scrollbar-gutter-width: 10px;
@@ -5,9 +7,10 @@
 
 // generic resets
 html {
-	font-size: 62.5%;
+	// font-size: 62.5%;
 	// box-sizing: border-box;
-	font-family: var(--font-family);
+	font-family: var(--commit-details-font-family) !important;
+	font-size: var(--commit-details-font-size) !important;
 }
 
 *,
@@ -94,9 +97,9 @@ ul {
 	display: inline-block;
 	border: none;
 	padding: 0.4rem;
-	font-family: inherit;
-	font-size: inherit;
-	line-height: 1.4;
+	// font-family: inherit;
+	// font-size: inherit;
+	// line-height: 1.4;
 	text-align: center;
 	text-decoration: none;
 	user-select: none;
@@ -247,7 +250,7 @@ ul {
 	&__filename {
 	}
 	&__path {
-		font-size: 0.9em;
+		// font-size: 0.9em;
 	}
 	&__actions {
 		flex: none;
@@ -473,8 +476,10 @@ ul {
 			top: 1px;
 			bottom: 1px;
 		}
-		line-height: 22px;
-		height: 22px;
+		// line-height: 22px;
+		// font-size: var(--commit-details-font-size) !important;
+		// font-family: var(--commit-details-font-family) !important;
+		// height: 22px;
 	}
 	&__item-skeleton {
 		padding: {

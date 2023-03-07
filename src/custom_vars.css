@@ -1,0 +1,6 @@
+:root {
+	--non-mono-font: "SF Compact Text";
+	--mono-font: "JetBrains Mono";
+    --commit-details-font-family: var(--mono-font);
+    --commit-details-font-size: 16px !important;
+}
