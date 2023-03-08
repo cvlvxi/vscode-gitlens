@@ -67,12 +67,11 @@ const styles = css`
 		padding-bottom: 0.1rem;
 		line-height: 2.2rem;
 		height: 2.2rem;
-
+		font-size: 18px !important;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
-		font-size: 20px !important;
 		color: var(--vscode-sideBar-foreground);
 	}
 
@@ -102,7 +101,7 @@ const styles = css`
 	}
 
 	.item {
-		font-size: 20px !important;
+		font-size: 18px !important;
 		appearance: none;
 		display: flex;
 		flex-direction: row;
