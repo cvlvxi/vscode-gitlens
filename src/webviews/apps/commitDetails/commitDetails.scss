@@ -20,8 +20,10 @@ html {
 }
 
 body {
-	font-family: var(--font-family);
-	font-size: var(--font-size);
+	font-family: var(--commit-details-font-family) !important;
+	font-size: var(--commit-details-font-size) !important;
+	// font-family: var(--font-family);
+	// font-size: var(--font-size);
 	color: var(--color-foreground);
 	padding: 0;
 
