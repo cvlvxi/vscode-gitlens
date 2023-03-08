@@ -68,6 +68,7 @@ const styles = css`
 		line-height: 2.2rem;
 		height: 2.2rem;
 		font-size: 18px !important;
+		font-family: JetBrainsMono Nerd Font Mono !important;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
@@ -102,6 +103,7 @@ const styles = css`
 
 	.item {
 		font-size: 18px !important;
+		font-family: JetBrainsMono Nerd Font Mono !important;
 		appearance: none;
 		display: flex;
 		flex-direction: row;
