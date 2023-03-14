@@ -2,6 +2,8 @@ import { attr, css, customElement, FASTElement, html, repeat, volatile, when } f
 import type { TextDocumentShowOptions } from 'vscode';
 import { numberConverter } from '../converters/number-converter';
 import '../code-icon';
+import { customFontSize, monoFont } from '../../../../../custom_vars';
+
 
 // Can only import types from 'vscode'
 const BesideViewColumn = -2; /*ViewColumn.Beside*/
@@ -67,8 +69,8 @@ const styles = css`
 		padding-bottom: 0.1rem;
 		line-height: 2.2rem;
 		height: 2.2rem;
-		font-size: 18px !important;
-		font-family: JetBrainsMono Nerd Font Mono !important;
+		font-size: ${customFontSize} !important;
+		font-family: ${monoFont} !important;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
@@ -102,8 +104,8 @@ const styles = css`
 	}
 
 	.item {
-		font-size: 18px !important;
-		font-family: JetBrainsMono Nerd Font Mono !important;
+		font-size: ${customFontSize} !important;
+		font-family: ${monoFont} !important;
 		appearance: none;
 		display: flex;
 		flex-direction: row;
